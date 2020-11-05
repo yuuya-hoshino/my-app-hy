@@ -1,5 +1,8 @@
 {
   "name": "my-app-hy",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "node-sass-globbing": "0.0.23"
+  }
 }
