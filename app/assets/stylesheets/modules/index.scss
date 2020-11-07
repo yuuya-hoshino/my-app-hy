@@ -1,6 +1,108 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.btn{
+  color: white;
+}
+.bottom{
+  width: 100%;
+  vertical-align: bottom;
+}
 .header{
   padding: 0 60px;
+  height: 170px;
+  color: brown;
+  background-color:orange;
   &_main{
-    color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-bottom: 48px;
+    font-family: cursive;
+    padding-top: 10px;
+    &_icon{
+      width: 80px;
+    }
+  }
+  &_nav{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    .top_btn{
+      color: red;
+      padding-left: 60px;
+      padding-right: 60px;
+      background-color: gray;
+    }
+  }
+}
+.main{
+  background: #f8f8f8;
+  width: 100%;
+  .topintroduction{
+    padding: 60px 20px;
+    background-color:gray;
+    .concept{
+      font-size: 30px;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 80px;
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .lists{
+      display: flex;
+      justify-content: space-around;
+      .list{
+        width: 360px;
+        height: 400px;
+        &_text{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .visual{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url('/images/aaa.jpg');
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    width: 100%;
+    height: 560px;
+    &_content{
+      max-width: 1280px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 35px 0 0 0;
+      &_subtitle{
+        text-shadow: 0 0 5px rgba(0,0,0,0.4);
+        font-size: 60px;
+        line-height: 1.2;
+        color: white;
+        padding-top: 100px;
+      }
+      .log__btn{
+        display: flex;
+        margin: 24px 0 0 0;
+        .abtn{
+          margin-right: 10px;
+          width: 160px;
+          padding: 10px;
+          .editing{
+            border-radius: 10px;
+          }
+        }
+        .gbtn{
+          width: 180px;
+        }
+      }
+    }
   }
 }
