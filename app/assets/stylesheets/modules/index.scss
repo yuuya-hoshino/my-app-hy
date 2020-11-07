@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     font-size: 50px;
-    padding-bottom: 43px;
+    padding-bottom: 48px;
     font-family: cursive;
     padding-top: 10px;
     &_icon{
@@ -31,6 +31,9 @@
     justify-content: space-around;
     .top_btn{
       color: red;
+      padding-left: 60px;
+      padding-right: 60px;
+      background-color: gray;
     }
   }
 }
@@ -66,7 +69,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url('/images/bg-mainVisual-pict_pc.jpg');
+    background-image: url('/images/aaa.jpg');
     position: relative;
     display: flex;
     align-items: center;
