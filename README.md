@@ -14,6 +14,8 @@
 - has_many : chat_room_user
 - has_many : reaction
 - has_many : groups_user
+- has_many : chat_room,through: :chat_message
+- has_many : chat_room,through: :chat_room_user
 
 
 ## reactionsテーブル
