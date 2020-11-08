@@ -9,6 +9,8 @@
 |password|string|null: false|
 |each_split|string|null: false|
 
+
+
 ## reactionsテーブル
 
 |Column|Type|Options|
@@ -22,8 +24,8 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|chat_room_id|integer|null: false|
-|user_id|integer|null: false|
+|chat_room_id|integer|null: false,foreign_key: true|
+|user_id|integer|null: false,foreign_key: true|
 |messge|text||
 |image|string||
 
@@ -36,5 +38,5 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|chat_room_id|integer|null: false|
-|user_id|integer|null: false|
+|chat_room_id|integer|null: false,foreign_key: true|
+|user_id|integer|null: false,foreign_key: true|
