@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## usersテーブル
 
-Things you may want to cover:
+|Column|Type|Options|
+|------|----|-------|
+|nickname|string|null: false|
+|email|string|null: false,unique: true|
+|password|string|null: false|
+|each_split|string|null: false|
 
-* Ruby version
+## reactionsテーブル
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+|Column|Type|Options|
+|------|----|-------|
+|to_user_id|integer|null: false|
+|email|string|null: false,unique: true|
+|password|string|null: false|
+|each_split|string|null: false|
