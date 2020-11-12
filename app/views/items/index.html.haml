@@ -8,15 +8,17 @@
     = link_to "新規登録", "#", class: "btn"
 .main
   .topintroduction
-    .concept
-      こんな事で悩んでいませんか？
+    .subtitle
+      
     .lists
-      = image_tag "pict/pict-reason-02.jpg",class:"list" 
-      %p.text
-        動画を作りたいけど
-        %br
-        投稿・編集のやり方が分からない
-      = image_tag "pict/pict-reason-03.jpg",class:"list"
+      .list
+        .list__pict
+          = image_tag "pict/pict-reason-02.jpg",class:"list__pict_size1"
+        %p.list__description スマホで入力するだけで簡単に出品できる！
+      .list
+        .list__pict
+          = image_tag "pict/pict-reason-03.jpg",class:"list__pict_size2"
+        %p.list__description めんどくさい入力は必要なく、検索も購入もスムーズ！
   .visual
     .visual_content
       .visual_content_subtitle
