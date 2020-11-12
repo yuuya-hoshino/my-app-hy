@@ -42,28 +42,49 @@
   }
 }
 .main{
-  background: #f8f8f8;
+  background: gray;
   width: 100%;
   .topintroduction{
     padding: 60px 20px;
-    background-color:gray;
-    .concept{
-      font-size: 30px;
-      color: white;
+    .subtitle{
+      text-align: center;
+      font-size: 26px;
+      line-height: 1.4;
       font-weight: bold;
-      margin-bottom: 80px;
+      margin-bottom: 25px;
       padding-bottom: 15px;
-      display: flex;
-      justify-content: space-around;
-    }
+      position: relative;
+      }
     .lists{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
+      max-width: 1020px;
+      width: 100%;
+      margin: 0 auto;
       .list{
-        width: 360px;
-        height: 400px;
-        &_text{
-          font-size: 20px;
+        width: 30%;
+        margin: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__pict{
+          position: relative;
+          margin-bottom: 20px;
+          &_size1{
+            width: 350px;
+            height: 300px;
+            vertical-align: bottom;
+          }
+          &_size2{
+            width: 350px;
+            height: 300px;
+            vertical-align: bottom;
+          }
+        }
+        &__description{
+          font-size: 18px;
+          line-height: 1.5;
+          margin: 16px 0 0;
         }
       }
     }
